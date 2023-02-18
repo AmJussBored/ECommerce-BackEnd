@@ -131,7 +131,7 @@ namespace EComm___Backend.Controllers
             return Ok(user);
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("api/login")]
         public async Task<IActionResult> login(string email, string userPass)
         {
